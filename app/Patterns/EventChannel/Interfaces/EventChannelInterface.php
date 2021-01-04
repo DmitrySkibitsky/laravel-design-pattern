@@ -20,5 +20,5 @@ interface EventChannelInterface
      * @param  SubscriberInterface $subscriber
      * @return void
      */
-    public function subscribe($topic, SubscriberInterface $subscriber);
+    public function subscribe(string $topic, SubscriberInterface $subscriber);
 }

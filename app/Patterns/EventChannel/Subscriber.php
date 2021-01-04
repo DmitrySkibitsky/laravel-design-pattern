@@ -34,7 +34,14 @@ class Subscriber implements SubscriberInterface
         return $this->name;
     }
 
-    public function notify($data)
+    /**
+     * notify
+     *
+     * @param mixed $data
+     *
+     * @return void
+     */
+    public function notify($data) : void
     {
         dump("notify: subscriber - {$this->getName()}, data - $data");
     }

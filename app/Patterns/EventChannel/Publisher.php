@@ -40,7 +40,7 @@ class Publisher implements PublisherInterface
      * @param  mixed $data
      * @return void
      */
-    public function publish($data)
+    public function publish($data) : void
     {
         $this->event_channel->publish($this->topic, $data);
     }

@@ -43,7 +43,7 @@ class News extends PropertyContainer
     /**
      * setTitle
      *
-     * @param  mixed $title
+     * @param  string $title
      * @return News
      */
     public function setTitle(string $title) : News
@@ -56,7 +56,7 @@ class News extends PropertyContainer
     /**
      * setDescription
      *
-     * @param  mixed $description
+     * @param  string $description
      * @return News
      */
     public function setDescription(string $description) : News

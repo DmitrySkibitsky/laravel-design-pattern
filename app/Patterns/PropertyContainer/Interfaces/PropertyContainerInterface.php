@@ -7,7 +7,7 @@ interface PropertyContainerInterface
     /**
      * addProperty
      *
-     * @param  mixed $property_name
+     * @param  string $property_name
      * @param  mixed $value
      * @return void
      */
@@ -16,7 +16,7 @@ interface PropertyContainerInterface
     /**
      * deleteProperty
      *
-     * @param  mixed $property_name
+     * @param  string $property_name
      * @return void
      */
     public function deleteProperty(string $property_name);
@@ -24,7 +24,7 @@ interface PropertyContainerInterface
     /**
      * getProperty
      *
-     * @param  mixed $property_name
+     * @param  string $property_name
      * @return void
      */
     public function getProperty(string $property_name);
@@ -32,7 +32,7 @@ interface PropertyContainerInterface
     /**
      * setProperty
      *
-     * @param  mixed $property_name
+     * @param  string $property_name
      * @param  mixed $value
      * @return void
      */

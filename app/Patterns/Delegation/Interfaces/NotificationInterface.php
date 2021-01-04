@@ -7,7 +7,7 @@ interface NotificationInterface
     /**
      * setMessage
      *
-     * @param  mixed $message
+     * @param  string $message
      * @return NotificationInterface
      */
     public function setMessage(string $message) : NotificationInterface;

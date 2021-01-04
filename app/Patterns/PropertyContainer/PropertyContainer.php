@@ -7,13 +7,15 @@ use Exception;
 
 class PropertyContainer implements PropertyContainerInterface
 {
+    /**
+     * @var array
+     */
     private $property_container = [];
 
     /**
-     * addProperty
+     * @param string $property_name
+     * @param mixed $value
      *
-     * @param  mixed $property_name
-     * @param  mixed $value
      * @return void
      */
     public function addProperty(string $property_name, $value) : void
@@ -22,9 +24,8 @@ class PropertyContainer implements PropertyContainerInterface
     }
 
     /**
-     * deleteProperty
+     * @param string $property_name
      *
-     * @param  mixed $property_name
      * @return bool
      */
     public function deleteProperty(string $property_name) : bool
@@ -39,10 +40,9 @@ class PropertyContainer implements PropertyContainerInterface
     }
 
     /**
-     * getProperty
+     * @param string $property_name
      *
-     * @param  mixed $property_name
-     * @return void
+     * @return mixed
      */
     public function getProperty(string $property_name)
     {
@@ -50,11 +50,10 @@ class PropertyContainer implements PropertyContainerInterface
     }
 
     /**
-     * setProperty
+     * @param string $property_name
+     * @param mixed $value
      *
-     * @param  mixed $property_name
-     * @param  mixed $value
-     * @return void
+     * @return mixed
      */
     public function setProperty(string $property_name, $value)
     {

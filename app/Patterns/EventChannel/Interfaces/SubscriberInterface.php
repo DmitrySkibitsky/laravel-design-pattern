@@ -17,5 +17,5 @@ interface SubscriberInterface
      * @param  mixed $data
      * @return void
      */
-    public function notify($data);
+    public function notify($data) : void;
 }

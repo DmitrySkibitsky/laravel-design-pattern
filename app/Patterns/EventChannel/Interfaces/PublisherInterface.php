@@ -10,5 +10,5 @@ interface PublisherInterface
      * @param  mixed $data
      * @return void
      */
-    public function publish($data);
+    public function publish($data) : void;
 }
